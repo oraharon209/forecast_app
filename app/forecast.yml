@@ -15,7 +15,7 @@ spec:
         app: forecastapp
     spec:
       containers:
-      - image: oraharon/kube-jenkins-docker:53
-        name: forecastapp
-        ports:
-        - containerPort: 9090
+        - image: oraharon/kube-jenkins-docker:54
+          name: forecastapp
+          ports:
+            - containerPort: 9090
