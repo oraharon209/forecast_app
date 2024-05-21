@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Install YQ
-        uses: mikefarah/yq@v1.1.1
+        uses: dcarbone/install-yq-action@v1.1.1
 
       - name: Update Deployment Image Tag
         run: |
