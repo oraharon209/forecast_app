@@ -29,5 +29,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add forecast.yml
-          git commit -m "Update image tag to oraharon/kube-jenkins-docker:53"
+          git commit -m "Update image tag to 53"
           git push
