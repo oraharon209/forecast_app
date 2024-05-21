@@ -22,7 +22,7 @@ jobs:
 
       - name: Update Deployment Image Tag
         run: |
-          yq -i '.spec.template.spec.containers[0].image = "oraharon/kube-jenkins-docker:54"' forecast.yaml
+          yq -i '.spec.template.spec.containers[0].image = "oraharon/kube-jenkins-docker:54"' forecast.yml
 
       - name: Commit changes
         run: |
