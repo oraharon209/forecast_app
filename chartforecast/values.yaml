@@ -1,0 +1,21 @@
+myapp:
+  name: myapp
+  replicaCount: 1
+  image: oraharon/weatherapp_logs
+  tag: 1
+
+service:
+  name: service-myapp
+  port: 80
+  targetPort: 9090
+  type: ClusterIP
+
+ingress:
+  enabled: true
+  name: my-ingress
+  className: "nginx"
+  annotations: {}
+  host: ".a97a6099ed318426a8031cdb8fb8805c-1205548313.eu-north-1.elb.amazonaws.com"
+  namespace: "" 
+  path: /*
+
