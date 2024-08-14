@@ -1,4 +1,4 @@
-# Weather App ☔️☀️
+# Forecast App ☔️☀️
 
 This application shows the forecast for the next 7 days
 
@@ -22,4 +22,4 @@ if you are using visual-crossing's API key you can skip this part, if you
 are not using visual-crossing you also need to change the url in get_data() function.
 
 
-Run the `weather_app.py`.
+Run the `forecast_app.py`.
